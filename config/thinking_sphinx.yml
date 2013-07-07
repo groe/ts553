@@ -1,0 +1,4 @@
+development:
+# enable (uncomment) the following 2 lines to reproduce thinking-sphinx issue #553 (don't forget to run `rake ts:rebuild`)
+  ngram_len: 1
+  ngram_chars: U+0F00..U+0FFF, 0..9, A..Z->a..z, _, a..z, U+410..U+42F->U+430..U+44F, U+430..U+44F, U+0100..U+017F, U+1E00..U+1EFF, U+F900..U+FAFF, U+20000..U+2A6DF
